@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# local tool files
+.agents/
+
+# raw data is not committed; the two small files the deployed app needs are kept
+data/*
+!data/weekly_features.csv
+!data/sku_master_clean.csv
